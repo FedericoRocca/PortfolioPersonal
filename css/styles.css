@@ -9,6 +9,10 @@
 
 .Carousel { grid-area: Carousel; }
 
+.Foto { grid-area: Card; }
+
+.Info { grid-area: Carousel; }
+
 .bodyText
 {
     color: LightSlateGray;
