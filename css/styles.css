@@ -1,7 +1,6 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
   gap: 1px 1px;
   grid-template-areas: "Card Card Carousel Carousel" ". . . ." ". . . .";
 }
@@ -10,12 +9,13 @@
 
 .Carousel { grid-area: Carousel; }
 
-.whiteText
+.bodyText
 {
-    color: white;
+    color: LightSlateGray;
 }
 
 .backgroundImage
 {
     background-image: url(../img/background.jpg);
+    background-size: 100% 100%;
 }
