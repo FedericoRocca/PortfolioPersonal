@@ -3,6 +3,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1px 1px;
   grid-template-areas: "Card Card Carousel Carousel" ". . . ." ". . . .";
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .Card { grid-area: Card; }
@@ -22,4 +24,9 @@
 {
     background-image: url(../img/background.jpg);
     background-size: 100% 100%;
+}
+
+.textJustifier
+{
+  text-align: justify;
 }
